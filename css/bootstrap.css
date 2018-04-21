@@ -6818,9 +6818,13 @@ button.close {
 }
 
 .background{
-  background-image: url('../img/background.png');
+  background-image: url('../img/background.png') ;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
+}
+.notas{
+  color: white;
 }
 /*# sourceMappingURL=bootstrap.css.map */
